@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { listarReclamos, listarPendientes, resolverReclamo } from "../../services/pedidoService";
+import { listarReclamos, listarPendientes, resolverReclamo } from "../../services/PedidoService";
 
 const ESTADO_COLOR = {
   solicitado:  "bg-yellow-100 text-yellow-700",

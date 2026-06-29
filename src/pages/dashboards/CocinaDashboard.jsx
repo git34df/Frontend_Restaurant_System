@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { listarPedidos, cambiarEstado, obtenerPedido } from "../../services/pedidoService";
+import { listarPedidos, cambiarEstado, obtenerPedido } from "../../services/PedidoService";
 
 const COLUMNAS = [
   { estado: "registrado",     label: "Nuevos",        color: "bg-blue-50 border-blue-200",   badge: "bg-blue-100 text-blue-700" },
