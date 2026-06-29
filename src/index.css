@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* En v4, tus clases personalizadas van después de la importación */
+@theme {
+  /* Aquí podrías añadir variables de tema si fuera necesario */
+}
+
+.input {
+  @apply w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400;
+}
