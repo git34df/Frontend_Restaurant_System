@@ -4,7 +4,7 @@ import {
   listarPedidos, obtenerPedido,
   emitirComprobante, comprobantePorPedido,
   registrarPago
-} from "../../services/pedidoService";
+} from "../../services/PedidoService";
 
 const METODOS = ["efectivo","tarjeta_credito","tarjeta_debito","yape","plin","transferencia"];
 const METODO_ICON = { efectivo:"💵", tarjeta_credito:"💳", tarjeta_debito:"💳", yape:"📱", plin:"📱", transferencia:"🏦" };
